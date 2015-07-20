@@ -1,7 +1,7 @@
 # NSObjectToJSON
 Convert Classic NSObject to NSDictionary / JSON in Objective-c
 
-## Exemple
+## Example
 
 ```objective-c
     Wheel *wheel = [[Wheel alloc] init];
