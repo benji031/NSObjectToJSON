@@ -52,6 +52,13 @@
     garage.cars = array;
     NSLog(@"Dictionary : %@", [ObjectConverter convertObjectToDictionary:garage]);
     
+    
+    
+    
+    
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:[ObjectConverter convertObjectToDictionary:garage] options:NSJSONWritingPrettyPrinted error:nil];
+    NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+    NSLog(@"JSON format : %@", jsonString);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
