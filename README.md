@@ -3,8 +3,8 @@ Convert Classic NSObject to NSDictionary / JSON in Objective-c
 
 ## Exemple
 
-```
-Wheel *wheel = [[Wheel alloc] init];
+```objective-c
+    Wheel *wheel = [[Wheel alloc] init];
     wheel.punctured = false;
     wheel.brand = @"Michelin";
     
